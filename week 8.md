@@ -16,7 +16,7 @@
 *	As the template I had chosen already had a animation setted up, so not much could be documented
 in this week
 
-*Please see the code below
+** *Please see the code below* **
 
 
 ## HTML
