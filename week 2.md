@@ -13,7 +13,8 @@
 
 
 ## Week 2 
-* During this week, I was shown a template that fitted the requirements and code needed for my website (HKatCafe), i had also changed the header image.
+* During the second week, I was given and shown a template that fitted the requirements including its code needed for my website (HKatCafe)
+* I had made ammendements to the templates code that includes; header image, meta tags, nav, footer and section
 
 ## Template HTML code
 ```
@@ -489,7 +490,7 @@ for (const element of document.querySelectorAll('nav a')) {
 				<a href="#home">Home</a>
 				<a href="#thecats">The Cats</a>
 				<a href="#menu">Menu</a>
-				<a href="#Search">Search</a>
+				<a href="#search">Search</a>
 				<a href="#booking">Book a Table</a>
 				<a href="#contact">Contact Us</a>
 			</nav>
