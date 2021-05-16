@@ -117,8 +117,71 @@ onto "contact us" section
 > *	nav tags
 > *	article tags
 > *	footer tags
-
-
+>
+> # Generic CSS Body Structure/ Layout used
+>*	@import url()
+>*	html {}
+>*	body {}
+>*	#menu toggler {}
+>*	header, main, section, article{}
+>*	a{}
+>*	header{}
+>*	header h1{}
+>*	header nav{}
+>*	#menu toggler + header nav{}
+>*	main{}
+>*	section,footer{}
+>*	section{}
+>*	article{}
+>*	article img{}
+>*	article h2{}
+>*	img{}
+>*	.showcase{}
+>*	label{}
+>*	input, select, textarea{}
+>*	div.elem-group.inlined input{}
+>*	element{}
+>*	#element1{}
+>*	@keyframes mymove{}
+>*	textarea{}
+>*	hr{}
+>*	button{}
+>*	@media(min-width:700px){}
+>*	@media(min-width:1000px){}
+>*	@media(min-width:1200px){}
+>*	@media print{}
+>
+> # Generic .js Body Structure/ Layout used
+>‘scripts.js’
+>*	menuToggler.addEventListener ()
+>*	for()
+>
+>‘scripts2.js’
+>*	let
+>
+>*	function(){
+>*	      let
+>*	      fetch()
+>*	      .then()
+>*		  let
+>*		  let()
+>*	          let()
+>* }
+> * .catch()
+> 
+> ‘input.js’
+> console.log(firstname.value);
+> console.log(lastname.value);
+> console.log(radio2.value);
+> console.log(radio4.value);
+> console.log(radio6.value);
+> console.log(email.value);
+> console.log(date.value);
+> console.log(time.value);
+>
+> ‘radio6.js’
+> const x = (x, y) => x * y;
+>
 ># Instructions to undertake of how to use HKatCafe Website on PC/Tablet (big-screens) & on mobile phones (smaller/mid-screens);  
 >
 >>1. Open Google Chrome application .
