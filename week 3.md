@@ -12,10 +12,10 @@
 *SCCB* , Attain, [Resources](https://attain.sccb.ac.uk/moodle/mod/folder/view.php?id=48839)
 
 ## Week 3 
-- During this week I had used GIT to clone a repository from github and had
-used it as a remote source for a local git repository
+- During this week I had used GIT to clone a repository from github and had used it as a remote source for a local git repository
 - Got my assignment code repository setted up
 	
 	
-*	[Github Link](https://github.com/hirrakhan/CTEC3905-2020-21)	
+*	[Github Link](https://github.com/hirrakhan/hkatcafewebsite)
+*	Github username: hirrakhan	
 
