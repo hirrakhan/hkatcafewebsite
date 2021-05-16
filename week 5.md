@@ -15,6 +15,7 @@
 ## Week 5 
 *	This week document will include, working with user input by using accessibilty tags (label elements, document structure, with more input types (i.e.
 date, email, time, people, etc.) - all by implementing a form within my code, especially in the "book a table" section.
+*	I had implemented the script associated with the form (input.js) within my index.html file
 
 ## HTML linking input from form on javascript
 ```
