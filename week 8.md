@@ -15,7 +15,7 @@
 ## Week 8 
 *	I had implemented within the section of home tag an animation to the social links - using a "element" tag within CSS
 *	However, additionaly i added social media external links to make the website more appealing with the specific social media icons
-*	Later on I had made a seperate .js file for the arrow functions used in the "book a table" section of the website
+*	Later on I had made a seperate .js file for the arrow functions (ES6) used in the "book a table" section of the website
 
 ** *Please see the code below* **
 
