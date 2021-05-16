@@ -17,6 +17,7 @@
 the "yourkittyfriend" section
 * 	I had also implemented google maps API under the sections of "alternative cat friends" and "location"
 * 	Enabling the function/feature to work, I had used the script file in HKatCafe's index.html file
+* 	The following file "scripts2.js" includes the functions required for the API to work on console
 
 
 ## HTML implementation of javascript file
