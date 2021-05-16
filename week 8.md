@@ -15,18 +15,22 @@
 ## Week 8 
 *	As the template I had chosen already had a animation setted up, so not much could be documented
 in this week
+*	However, additionaly i added social media external links to make the website more appealing with the specific social media icons
 
 ** *Please see the code below* **
 
 
 ## HTML
 ```
+# index.html
+
+```
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
 
 	<head>
-		<title>hkatcafe web page</title>		
+		<title>Welcome to HKatCafe's Webpage</title>		
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="HKatCafe">
@@ -43,7 +47,7 @@ in this week
 		</div>
 		
 		<header>
-			<h1>HKatCafe</h1>
+			<h1>HKatCafé</h1>
 			<nav class="no-print">
 				<a href="#home">Home</a>
 				<a href="#yourkittyfriends">Furry Friends</a>
@@ -142,7 +146,7 @@ in this week
 				<form action="login.html" method="post">
 					 <fieldset>
 						<legend><h2>Book a Table</h2></legend>
-							Please fill this form in to book your table at HKatCafe.</p>
+							Please fill this form in to book your table at H'Kat'Café.</p>
 							<p><b><label for="firstname">First name:</label></b>
 							<input id="firstname" value =""></p>
 							
@@ -179,7 +183,7 @@ in this week
 					<fieldset>
 						<legend><h2>Location</h2></legend>
 							<b>Address</b>
-								<br>HKatCafe</br>
+								<br>HKatCafé</br>
 									High Street Deritend</br> 
 									Birmingham<br>
 									B5 5SU
@@ -207,6 +211,12 @@ in this week
 						<legend><h2><b>Contact us</b></h2></legend>
 							 <b>Phone:</b> 0121-335-6357</br>
 							 <b>Email:</b> <a href="s45139003@sccb.ac.uk">birmingham@hkatcafe.co.uk</a>
+							 
+						<div align="right"><b>Or follow us on:</b>
+							<a href="https://en-gb.facebook.com/"><img src="fb.png" style="width:24px;height:24px;border:0;"></a>
+							<a href="https://www.instagram.com/"><img src="inst.png" style="width:24px;height:24px;border:0;"></a>
+							<a href="https://twitter.com/?lang=en-gb"><img src="tw.png" style="width:24px;height:24px;border:0;"></a>
+						</div>
 					</fieldset>
 				</center>
 			</section>
@@ -238,7 +248,7 @@ in this week
 						} 
 				</script> 
 				
-				<p style="font-size:x-small;">©2021 HKatCafe - All Rights Reserved -</p>
+				<p style="font-size:x-small;">©2021 HKatCafé - All Rights Reserved -</p>
 				
 			</center>
 		</footer>
@@ -248,6 +258,8 @@ in this week
 		<script src="scripts2.js"></script>
 	</body>
 </html>
+```
+
 
 ```
 
