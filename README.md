@@ -39,10 +39,11 @@
 
 
 ## External Supportive Links 
-- W3 Schools - [HTML Link](https://www.w3schools.com/html/default.asp)        									
-- W3 Schools - [CSS Link](https://www.w3schools.com/css/default.asp)											
+- W3 Schools - [HTML Link](https://www.w3schools.com/html/default.asp)	
+- W3 Schools - [CSS Link](https://www.w3schools.com/css/default.asp)	
 - W3 Schools - [JavaScript Link](https://www.w3schools.com/js/default.asp)  
 - W3 Schools - [HTML button Tag](https://www.w3schools.com/tags/tag_button.asp)
+- W3 Schools - [CSS Animations](https://www.w3schools.com/css/css3_animations.asp)
 
 
 ## External Supportive - Images References 
