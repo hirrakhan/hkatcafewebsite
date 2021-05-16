@@ -21,7 +21,6 @@ in this week
 
 
 ## HTML
-```
 # index.html
 
 ```
@@ -258,9 +257,6 @@ in this week
 		<script src="scripts2.js"></script>
 	</body>
 </html>
-```
-
-
 ```
 
 ## CSS
