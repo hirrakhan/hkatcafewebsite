@@ -167,20 +167,20 @@ onto "contact us" section
 >*		  let()
 >*	          let()
 >* }
-> * .catch()
+>*	.catch()
 > 
 > ‘input.js’
-> console.log(firstname.value);
-> console.log(lastname.value);
-> console.log(radio2.value);
-> console.log(radio4.value);
-> console.log(radio6.value);
-> console.log(email.value);
-> console.log(date.value);
-> console.log(time.value);
+>*	console.log(firstname.value);
+>*	console.log(lastname.value);
+>*	console.log(radio2.value);
+>*	console.log(radio4.value);
+>*	console.log(radio6.value);
+>*	console.log(email.value);
+>*	console.log(date.value);
+>*	console.log(time.value);
 >
 > ‘radio6.js’
-> const x = (x, y) => x * y;
+>*	const x = (x, y) => x * y;
 >
 ># Instructions to undertake of how to use HKatCafe Website on PC/Tablet (big-screens) & on mobile phones (smaller/mid-screens);  
 >
