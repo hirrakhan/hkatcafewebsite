@@ -16,6 +16,7 @@
 - Got my assignment code repository setted up
 	
 	
-*	[Github Link](https://github.com/hirrakhan/hkatcafewebsite)
-*	Github username: hirrakhan	
+>Github username: hirrakhan	
+>[Github Link](https://github.com/hirrakhan/hkatcafewebsite)
+
 
