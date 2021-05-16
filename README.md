@@ -228,7 +228,7 @@ onto "contact us" section
 *	looked at cases where data are not hard-coded into HTML but exist in the javascript context and are used to contruct HTML
 *	been provided with a video that introduces some of the APIs that includes a simple example
 *	this week builds a simple to-do list app in which the core data are generated and managed by the user
-*	however, this was not implemented within my code as it didnt require this function
+*	however, the to-do list app feature was not required in my website, but the API that I had searched for and coded later on in reference to:(week 7.md), consists of working with data
 	
 ### in reference to "week 7.md" (Getting data from APIs)
 *	learnt the basics of accessing and working with such data
