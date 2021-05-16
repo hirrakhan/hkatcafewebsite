@@ -6,7 +6,7 @@
 - **DMU Module:** *CTEC3905 Front-End Web Development*
 
 # HTML
-```
+
 # index.html
 
 ```
