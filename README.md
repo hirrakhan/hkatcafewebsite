@@ -104,13 +104,23 @@ onto "contact us" section
 
 
 > # Generic HTML Body Structure/ Layout used
->
->*	header tag
->*	nav tag
->*	main tag	
->*	section tag
->*	article tag
->*	footer tag
+<html>
+	<head>
+		<title> ... </tilte>
+		<meta>
+		<style> ... </style>
+		<script> ... </script>
+	</head>
+	<body>
+	<header> ... </header>
+	<section> ...
+		<nav> ... </nav>
+		<article> ... </article>
+		<aside> ... </aside>
+	</section>
+	<footer> ... </footer>
+	</body>
+</html>
 
 
 ># Instructions to undertake of how to use HKatCafe Website on PC/Tablet (big-screens) & on mobile phones (smaller/mid-screens);  
