@@ -1,0 +1,231 @@
+# index.html
+
+```
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+	<head>
+		<title>Welcome to HKatCafe's Webpage</title>		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="HKatCafe">
+		<meta name="author" content="Hirra Khan">
+		<meta name="module" content="CTEC3905 Front-End Web Development">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	
+	<body id="home">
+		<div id="menuToggler" class="no-print">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		
+		<header>
+			<h1>HKatCafé</h1>
+			<nav class="no-print">
+				<a href="#home">Home</a>
+				<a href="#yourkittyfriends">Furry Friends</a>
+				<a href="#thecats">The Cats</a>
+				<a href="#menu">Menu</a>
+				<a href="#nearme">Alternative Cat Cafes</a>
+				<a href="#booking">Book a Table</a>
+				<a href="#location">Location</a>
+				<a href="#contact">Contact Us</a>
+			</nav>
+		</header>
+		
+		<main>
+			<section>
+				<center><h2><br>Welcome to HKatCafe.</br></h2>
+				<br>Cute Cats, Good Food & Happy People!.</br>
+				<br>This website is designed to keep felines in mind, with wide open spaces that includes a cafe with comfortable sofas and armchairs to maximise your experience and relaxation! </br>
+				<br>Come and say hello!</br>
+				</center>
+			</section>
+			
+			
+			<section id="yourkittyfriends">
+				<center>
+					<fieldset>
+						<legend><h2>Furry Friends</h2></legend>
+							<br>Lets meet your furry friends!</br>
+							<button class="btn btn-primary my-2 generate_btn"> Show me cats!</button>
+					
+							<div class="catsImgDiv">				
+							</div>
+					</fieldset>	
+				</center>
+			</section>			
+			
+			
+			<section class="images">
+				<article id="thecats">
+					<img src="https://kitty-cafe.imgix.net/catImages/Gizmo2.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=250&ixlib=php-1.1.0&q=60&sizes=&w=250" alt="kitten">
+					<h2>Meet The Cats</h2>
+					<p>Gizmo</p>
+				</article>
+				<article>
+					<img src="https://kitty-cafe.imgix.net/catImages/Cream.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=250&ixlib=php-1.1.0&q=60&sizes=&w=250" alt="kitten">
+					<p>Cream</p>
+				</article>
+				<article>
+					<img src="https://kitty-cafe.imgix.net/catImages/tabitha.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=250&ixlib=php-1.1.0&q=60&sizes=&w=250" alt="kitten">
+					<p>Tabitha</p>
+				</article>
+				<article>
+					<img src="https://kitty-cafe.imgix.net/catImages/lily.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=250&ixlib=php-1.1.0&q=60&sizes=&w=250" alt="kitten">
+					<p>Lily</p>
+				</article>
+			</section>
+			
+			
+			<section id="menu">
+				<center>
+					<fieldset>
+						<legend><h2><i>Menu</i></h2></legend>
+							<b><u>Tasty Meals</u></b></br>
+							Jacket Potato - Cheese & Beans (£6.95)</br>
+							9” Margherita Pizza (£7.95)</br>
+							Tuna Melt Panini (£7.45)</br>
+							Veggies Wrap (£6.45)</br>
+								_________________________
+							<br><b><u>Fresh Juice</u></b></br>
+							Orange (£1.95)</br>
+							Apple (£1.95)</br>
+							Pineapple (£1.95)</br>
+								_________________________
+							<br><b><u>Hot Drinks</u></b></br>
+							Any Coffee (£1.95)</br>
+							Any Tea (£2.90)</br>
+							Hot Chocolate (£2.90)</br>
+					</fieldset>	
+				</center>
+			</section>
+
+
+			<section id="nearme" class="text">
+				<center>
+					<fieldset>
+						<legend><h2>Alternative Cat Cafes</h2></legend>
+						<p>In the map below indicates other kitty cafes that you could visit.</p>
+							<iframe src="https://www.google.com/maps/d/embed?mid=1vNCg4S8eo51swqHvmwO-w_fXgZi4le61" width="400" height="340"></iframe>
+							<div id="map"></div>
+								<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" async></script>
+					</fieldset>	
+				</center>
+			</section>
+						
+						
+			<section id="booking" class="text">
+				<form action="login.html" method="post">
+					 <fieldset>
+						<legend><h2>Book a Table</h2></legend>
+							Please fill this form in to book your table at H'Kat'Café.</p>
+							<p><b><label for="firstname">First name:</label></b>
+							<input id="firstname" value =""></p>
+							
+							<p><b><label for="lastname">Last name:</label></b>
+							<input id="lastname" value =""></p>
+						
+							<p><center><b><label for="amount"> For How Many People?</label></b></br>
+							<label for="radio2">2 People</label>
+							<input id="radio2" name="options" type="radio"></br>						
+							<label for="radio4">4 People</label>
+							<input id="radio4" name="options" type="radio"></br></center></p>
+						
+							<p><center><b><label for="group">Group of (people):</label></b>
+							<label for="radio6"><p id="cal6"></p>
+								<script>
+									const x = (x, y) => { return x * y };
+									document.getElementById("cal6").innerHTML = x(2, 3);
+								</script> people</br><input id="radio6" name="options" type="radio"></p></center>
+
+							<b><label for="email">Email:</label></b>
+							<input id="email" type="email"></p>
+							
+							<p><b><label for="date">Date:</label></b>
+							<input id="date" type="date" ></p>
+						
+							<button type="button">Book</button>
+					</fieldset>
+				</form>
+			</section>
+			
+					
+			<section id="location" class="text">
+				<center>
+					<fieldset>
+						<legend><h2>Location</h2></legend>
+							<b>Address</b>
+								<br>HKatCafé</br>
+									High Street Deritend</br> 
+									Birmingham<br>
+									B5 5SU
+									
+									<div id="googleMap" style="width:60.5%;height:250px;"></div>
+									<script>
+										function myMap() {
+											var mapProp= {
+											  center:new google.maps.LatLng(52.47560651393718, -1.885776443522525),
+											  zoom:17.3};
+											  
+											var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+										}
+									</script>
+									
+									<script src="https://maps.googleapis.com/maps/api/js?key=&callback=myMap"></script>
+					</fieldset>
+				</center>
+			</section>
+			
+			
+			<section id="contact" class="text">
+				<center>
+					<fieldset>
+						<legend><h2><b>Contact us</b></h2></legend>
+							 <b>Phone:</b> 0121-335-6357</br>
+							 <b>Email:</b> <a href="s45139003@sccb.ac.uk">birmingham@hkatcafe.co.uk</a>
+					</fieldset>
+				</center>
+			</section>
+			
+			
+		</main>
+		
+		<footer>
+			<center>
+				<script language="javascript"> 
+						months = ['January', 'Febraury', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']; 
+						var d=new Date();
+						var weekday=new Array(7);
+							weekday[0]="Sunday";
+							weekday[1]="Monday";
+							weekday[2]="Tuesday";
+							weekday[3]="Wednesday";
+							weekday[4]="Thursday";
+							weekday[5]="Friday";
+							weekday[6]="Saturday";
+
+						var d = new Date();
+						(d.getFullYear());
+
+						var theDate = new Date(document.lastModified); 
+						theDate.setTime((theDate.getTime()+(60*60)) ) 
+						with (theDate) { 
+						document.write("<i>	Last Updated: "+weekday[getDay()]+' '+getDate()+' '+months[getMonth()]+' '+d.getFullYear()+' ,'+getHours()+':'+getMinutes()+" GMT</i>") 
+						} 
+				</script> 
+				
+				<p style="font-size:x-small;">©2021 HKatCafé - All Rights Reserved -</p>
+				
+			</center>
+		</footer>
+		
+		<script src="scripts.js"></script>
+		<script src="input.js"></script>
+		<script src="scripts2.js"></script>
+	</body>
+</html>
+```
