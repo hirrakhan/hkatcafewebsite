@@ -47,11 +47,14 @@
 
 ## External Supportive - Images References 
 - Header image![Persian Kitten in teacup](600px-persian-kitten-in-teacup.jpg)                    
-- Main section image 
+- Main section images 
 - ![Gizmo](kitty-cafe.imgix.net/catImages/Gizmo2.jpg)
 - ![Cream](kitty-cafe.imgix.net/catImages/Cream.jpg)
 - ![Tabitha](kitty-cafe.imgix.net/catImages/tabitha.jpg)
-- ![Lily](kitty-cafe.imgix.net/catImages/lily.jpg)        
+- ![Lily](kitty-cafe.imgix.net/catImages/lily.jpg) 
+
+## External Supportive Ref.Social Media Icons used for website
+- Iconfinder; [Link](https://www.iconfinder.com/social-media-icons)
 
 
 ## Google Maps Marker API (Multiple Locations) - used  for "Kitty Cafes Near Me" 
