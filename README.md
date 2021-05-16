@@ -234,6 +234,7 @@ onto "contact us" section
 *	learnt the basics of accessing and working with such data
 *	with the introductory video; it shows a few examples including a working example using the github API
 *	I had also implement google maps api widget onto HKatCafe's website
+*	I had also implemented API (in a seperate JS file that consists of working with the API's cat images data) merged with my (index.html) file
 
 ### in reference to "week 8.md" (Animations)
 *	been provided with a video about the introductory to animations and its uses on website.
