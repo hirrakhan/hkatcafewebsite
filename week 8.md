@@ -62,11 +62,13 @@
 			<section id="home" class="text">
 				
 				<center><h2><br>Welcome to HKatCafe.</br></h2>
-				<br>Cute Cats, Good Food & Happy People!.</br>
-				<br>This website is designed to keep felines in mind, with wide open spaces that includes a cafe with comfortable sofas and armchairs to maximise your experience and relaxation! </br>
-				<br>Come and say hello!</br>
+					<br>Cute Cats, Good Food & Happy People!.</br>
+					<br>This website is designed to keep felines in mind, with wide open spaces that includes a cafe with comfortable sofas and armchairs to maximise your experience and relaxation! </br>
+					<br>Come and say hello!</br>
 				</center>
+				
 				<p></p>
+				
 				<element id="element1"><b>or <i><b>follow us</b></i> on:</b>
 					<a href="https://en-gb.facebook.com/"><img src="fb.png" style="width:24px;height:24px;border:0;"></a>
 					<a href="https://www.instagram.com/"><img src="inst.png" style="width:24px;height:24px;border:0;"></a>
