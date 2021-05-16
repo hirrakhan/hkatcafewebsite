@@ -20,7 +20,7 @@
 
 
 ## GitHub Account
-*Github* , [Github Account](https://github.com/hirrakhan/CTEC3905-2020-21)		
+*Github* , [Github Account](https://github.com/hirrakhan/hkatcafewebsite)		
 
 
 ## Files required/needed 
