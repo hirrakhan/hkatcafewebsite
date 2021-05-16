@@ -124,7 +124,7 @@ onto "contact us" section
 >>2. Open index.html file to access the HKatCafe Website.
 >>3. On the homepage of HKatCafe, a responsive navigation bar will be in sight to access all the other pages, alongside a header image of a cat in a cup.
 >>4. Upon's users onclick (mouse hovering) on the responsive navigation bar, the page will automatically go to the following section.
->>5. "Home" section will lead to HKatCafe's responsive navigation bar in sight, upon scrolling, an introductory to the website will be there to read for the user.
+>>5. "Home" section will lead to HKatCafe's responsive navigation bar in sight, upon scrolling, an introductory to the website will be there to read for the user. There will also be an animation code implemented with the following social links for; facebook, instagram and twitter - allowing users to click on the following social icons to access them
 >>6. "Furry friends" section will consist of a button, user will have to click on the button > this will generate random cat images.
 >>7. "The Cats" section will lead to HKatCafe's in-house cats, upon with 4 images of the cats (images dimentions of 250x250).
 >>8. "Menu" section will be located next to the "The Cats" section consisting the menu list that HKatCafe offers.
