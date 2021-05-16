@@ -70,11 +70,12 @@
 ## Google Maps used - for "Contact Us > Address" 
 - Attain, Page Templates, [Link](https://attain.sccb.ac.uk/moodle/mod/folder/view.php?id=48843)  
 
-- copied and pasted code onto hkcatcafe's index.html onto "contact us" section
+- copied and pasted code onto hkcatcafe's 
+onto "contact us" section
 - copied and pasted the coordinates from Google Maps
 - changed the dimentions and the "zoom" off the map tag
 - clicked "save" of the index.html file
-- opened the [index.html](index.html) and clicked on refreshing
+- opened the [index.html](https://github.com/hirrakhan/hkatcafewebsite/blob/main/index.html) and clicked on refreshing
 - map positioned onto html page
 
 
