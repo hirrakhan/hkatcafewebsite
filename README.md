@@ -197,14 +197,17 @@ onto "contact us" section
 *	was introduced to Atom shortcuts and Chrome developer tools.
 *	been provided with the "introduction to html" video via DMU
 *	been provided with the "introduction to workflow" video via DMU
+*	basic code was made (as a draft) for hkatcafe's website
 	
 ### in reference to "week 2.md" (Introduction to CSS)
 *	covered basic syntax and core aspects of CSS that i needed to know of.
+*	however this was not required, as the template I had used already had this operation
 
 ### in reference to "week 3.md" (Introduction to JavaScript)
 *	been provided with "introduction to JavaScript"
 *	been introduced with the core features of JS that will be used in the module
 *	been provided with a released solution to "lab-02" on DMU and GitHub
+*	generated JS files for hkatcafe
 
 ### in reference to "week 4.md" (Responsive web design)
 *	was introduced to responsive web design
@@ -214,10 +217,12 @@ onto "contact us" section
 *	understood that a responsive design required a few 'min-width' queries to adjust the layout
 *	responsive design tweaks were made for my website.
 *	been provided with videos in about splash screen to build on the javascript intro (of lask week)
+*	however this was not required, as the template I had used already had this operation
 
 ### in reference to "week 5.md" (User Input)
 *	been provided with "Getting user input" that included an overview of the input element
-*	demonstration was shown that includes CSS grid and CSS custom variables
+*	demonstration was shown that includes CSS grid and CSS custom variables (via DMU blackboard for the module)
+*	I had also implemeneted this by using a form onto HKatCafes website
 
 ### in reference to "week 6.md" (Working with data)
 *	looked at cases where data are not hard-coded into HTML but exist in the javascript context and are used to contruct HTML
@@ -232,3 +237,4 @@ onto "contact us" section
 
 ### in reference to "week 8.md" (Animations)
 *	been provided with a video about the introductory to animations and its uses on website.
+*	I had also implemented animations onto HKatCafe's website
