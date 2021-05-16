@@ -13,7 +13,7 @@
 
 
 ## Week 8 
-*	I had implemented within the header an animation to the social links - using a "element" tag within CSS
+*	I had implemented within the section of home tag an animation to the social links - using a "element" tag within CSS
 *	However, additionaly i added social media external links to make the website more appealing with the specific social media icons
 
 ** *Please see the code below* **
