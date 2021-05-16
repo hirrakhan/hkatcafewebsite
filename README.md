@@ -237,4 +237,4 @@ onto "contact us" section
 
 ### in reference to "week 8.md" (Animations)
 *	been provided with a video about the introductory to animations and its uses on website.
-*	I had also implemented animations onto HKatCafe's website
+*	I had also implemented animations onto HKatCafe's website within a section: reference to: (week 8.md)
