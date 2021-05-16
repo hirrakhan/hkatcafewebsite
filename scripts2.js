@@ -1,3 +1,11 @@
+# About Author
+- **Author:** *Hirra Khan*					
+- **SCCB S-Number:** *S45139003*
+- **DMU P-Number:** *P2652223*
+- **SCCB Assessor:** *Aram Saeed*			
+- **DMU Module:** *CTEC3905 Front-End Web Development*
+	
+```
 let generate_btn = document.querySelector(".generate_btn");
 
 generate_btn.addEventListener("click", fetchPics);
@@ -21,3 +29,4 @@ function fetchPics(){
 	})
 	.catch(err => console.log(err))
 }
+```
