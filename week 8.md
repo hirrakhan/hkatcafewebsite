@@ -13,8 +13,7 @@
 
 
 ## Week 8 
-*	As the template I had chosen already had a animation setted up, so not much could be documented
-in this week
+*	I had implemented within the header an animation to the social links (using a "element" tag within CSS
 *	However, additionaly i added social media external links to make the website more appealing with the specific social media icons
 
 ** *Please see the code below* **
@@ -46,7 +45,7 @@ in this week
 		</div>
 		
 		<header>
-			<h1>HKatCafé</h1>
+			<h1>HKatCafe</h1>
 			<nav class="no-print">
 				<a href="#home">Home</a>
 				<a href="#yourkittyfriends">Furry Friends</a>
@@ -60,12 +59,19 @@ in this week
 		</header>
 		
 		<main>
-			<section>
+			<section id="home" class="text">
+				
 				<center><h2><br>Welcome to HKatCafe.</br></h2>
 				<br>Cute Cats, Good Food & Happy People!.</br>
 				<br>This website is designed to keep felines in mind, with wide open spaces that includes a cafe with comfortable sofas and armchairs to maximise your experience and relaxation! </br>
 				<br>Come and say hello!</br>
 				</center>
+				<p></p>
+				<element id="element1"><b>or <i><b>follow us</b></i> on:</b>
+					<a href="https://en-gb.facebook.com/"><img src="fb.png" style="width:24px;height:24px;border:0;"></a>
+					<a href="https://www.instagram.com/"><img src="inst.png" style="width:24px;height:24px;border:0;"></a>
+					<a href="https://twitter.com/?lang=en-gb"><img src="tw.png" style="width:24px;height:24px;border:0;"></a>
+				</element>
 			</section>
 			
 			
@@ -128,7 +134,7 @@ in this week
 			</section>
 
 
-			<section id="nearme" class="text">
+			<section id="nearme">
 				<center>
 					<fieldset>
 						<legend><h2>Alternative Cat Cafes</h2></legend>
@@ -141,11 +147,11 @@ in this week
 			</section>
 						
 						
-			<section id="booking" class="text">
+			<section id="booking">
 				<form action="login.html" method="post">
 					 <fieldset>
 						<legend><h2>Book a Table</h2></legend>
-							Please fill this form in to book your table at H'Kat'Café.</p>
+							Please fill this form in to book your table at HKatCafe</p>
 							<p><b><label for="firstname">First name:</label></b>
 							<input id="firstname" value =""></p>
 							
@@ -177,7 +183,7 @@ in this week
 			</section>
 			
 					
-			<section id="location" class="text">
+			<section id="location">
 				<center>
 					<fieldset>
 						<legend><h2>Location</h2></legend>
@@ -204,18 +210,13 @@ in this week
 			</section>
 			
 			
-			<section id="contact" class="text">
+			<section id="contact">
 				<center>
 					<fieldset>
 						<legend><h2><b>Contact us</b></h2></legend>
 							 <b>Phone:</b> 0121-335-6357</br>
 							 <b>Email:</b> <a href="s45139003@sccb.ac.uk">birmingham@hkatcafe.co.uk</a>
-							 
-						<div align="right"><b>Or follow us on:</b>
-							<a href="https://en-gb.facebook.com/"><img src="fb.png" style="width:24px;height:24px;border:0;"></a>
-							<a href="https://www.instagram.com/"><img src="inst.png" style="width:24px;height:24px;border:0;"></a>
-							<a href="https://twitter.com/?lang=en-gb"><img src="tw.png" style="width:24px;height:24px;border:0;"></a>
-						</div>
+		
 					</fieldset>
 				</center>
 			</section>
@@ -430,6 +431,21 @@ div.elem-group.inlined input {
   display: inline-block;
 }
 
+element {
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 3s infinite;
+}
+#element1 {animation-timing-function: ease;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 50px;}
+}
+
 textarea {
   height: 250px;
 }
@@ -570,6 +586,7 @@ button:hover {
 	}
 
 }
+
 ```
 
 ## Javascript
