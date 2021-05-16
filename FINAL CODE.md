@@ -7,12 +7,15 @@
 
 # HTML
 ```
+# index.html
+
+```
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
 
 	<head>
-		<title>hkatcafe web page</title>		
+		<title>Welcome to HKatCafe's Webpage</title>		
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="HKatCafe">
@@ -29,7 +32,7 @@
 		</div>
 		
 		<header>
-			<h1>H'Kat'Café</h1>
+			<h1>HKatCafé</h1>
 			<nav class="no-print">
 				<a href="#home">Home</a>
 				<a href="#yourkittyfriends">Furry Friends</a>
@@ -165,12 +168,12 @@
 					<fieldset>
 						<legend><h2>Location</h2></legend>
 							<b>Address</b>
-								<br>H'Kat'Café</br>
+								<br>HKatCafé</br>
 									High Street Deritend</br> 
 									Birmingham<br>
 									B5 5SU
 									
-									<div id="googleMap" style="width:80%;height:250px;"></div>
+									<div id="googleMap" style="width:60.5%;height:250px;"></div>
 									<script>
 										function myMap() {
 											var mapProp= {
@@ -193,6 +196,12 @@
 						<legend><h2><b>Contact us</b></h2></legend>
 							 <b>Phone:</b> 0121-335-6357</br>
 							 <b>Email:</b> <a href="s45139003@sccb.ac.uk">birmingham@hkatcafe.co.uk</a>
+							 
+						<div align="right"><b>Or follow us on:</b>
+							<a href="https://en-gb.facebook.com/"><img src="fb.png" style="width:24px;height:24px;border:0;"></a>
+							<a href="https://www.instagram.com/"><img src="inst.png" style="width:24px;height:24px;border:0;"></a>
+							<a href="https://twitter.com/?lang=en-gb"><img src="tw.png" style="width:24px;height:24px;border:0;"></a>
+						</div>
 					</fieldset>
 				</center>
 			</section>
@@ -224,7 +233,7 @@
 						} 
 				</script> 
 				
-				<p style="font-size:x-small;">©2021 H'Kat'Café - All Rights Reserved -</p>
+				<p style="font-size:x-small;">©2021 HKatCafé - All Rights Reserved -</p>
 				
 			</center>
 		</footer>
@@ -234,6 +243,8 @@
 		<script src="scripts2.js"></script>
 	</body>
 </html>
+```
+
 ```
 
 # CSS
