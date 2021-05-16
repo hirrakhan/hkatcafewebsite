@@ -15,6 +15,7 @@
 ## Week 8 
 *	I had implemented within the section of home tag an animation to the social links - using a "element" tag within CSS
 *	However, additionaly i added social media external links to make the website more appealing with the specific social media icons
+*	Later on I had made a seperate .js file for the arrow functions used in the "book a table" section of the website
 
 ** *Please see the code below* **
 
@@ -62,13 +63,11 @@
 			<section id="home" class="text">
 				
 				<center><h2><br>Welcome to HKatCafe.</br></h2>
-					<br>Cute Cats, Good Food & Happy People!.</br>
-					<br>This website is designed to keep felines in mind, with wide open spaces that includes a cafe with comfortable sofas and armchairs to maximise your experience and relaxation! </br>
-					<br>Come and say hello!</br>
+				<br>Cute Cats, Good Food & Happy People!.</br>
+				<br>This website is designed to keep felines in mind, with wide open spaces that includes a cafe with comfortable sofas and armchairs to maximise your experience and relaxation! </br>
+				<br>Come and say hello!</br>
 				</center>
-				
 				<p></p>
-				
 				<element id="element1"><b>or <i><b>follow us</b></i> on:</b>
 					<a href="https://en-gb.facebook.com/"><img src="fb.png" style="width:24px;height:24px;border:0;"></a>
 					<a href="https://www.instagram.com/"><img src="inst.png" style="width:24px;height:24px;border:0;"></a>
@@ -168,10 +167,9 @@
 						
 							<p><center><b><label for="group">Group of (people):</label></b>
 							<label for="radio6"><p id="cal6"></p>
-								<script>
-									const x = (x, y) => { return x * y };
-									document.getElementById("cal6").innerHTML = x(2, 3);
-								</script> people</br><input id="radio6" name="options" type="radio"></p></center>
+								<div class="radio6"></div>people</br><input id="radio6" name="options" type="radio"></p></center>
+								
+								
 
 							<b><label for="email">Email:</label></b>
 							<input id="email" type="email"></p>
@@ -258,6 +256,7 @@
 		<script src="scripts.js"></script>
 		<script src="input.js"></script>
 		<script src="scripts2.js"></script>
+		<script src="radio6.js"></script>
 	</body>
 </html>
 ```
@@ -640,4 +639,10 @@ console.log(radio6.checked);
 console.log(email.value);
 console.log(date.value);
 console.log(time.value);
+```
+
+### radio6.js
+```
+const x = (x, y) => { return x * y };
+document.getElementById("cal6").innerHTML = x(2, 3);
 ```
