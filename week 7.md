@@ -15,7 +15,8 @@
 ## Week 7 
 *	During this week I had implemeted API by working with fetching cat images on my website (HKatCafe) under
 the "yourkittyfriend" section
-* I had also implemented google maps API under the sections of "alternative cat friends" and "location"
+* 	I had also implemented google maps API under the sections of "alternative cat friends" and "location"
+* 	Enabling the function/feature to work, I had used the script file in HKatCafe's index.html file
 
 
 ## HTML implementation of javascript file
